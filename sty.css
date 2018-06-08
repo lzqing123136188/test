@@ -1,0 +1,86 @@
+.menu {
+	height: 110px;
+	background-color: #fff;
+	border-bottom-style: solid;
+	border-bottom-color: #4e4e4e;
+}
+.menubtn {
+	margin-top: 30px;
+	background-color:#fff;
+	
+}
+.navbarMin {
+  position: relative;
+  float: right;
+  padding: 13px 10px;
+  margin-top: 25px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  border: 1px solid;
+  border-radius: 9px;
+}
+.banner {
+	margin-top: 110px;
+	
+}
+
+.news{
+	margin-top: 3%;
+}
+.news img{
+	margin-bottom: 2%;
+}
+
+.news .bg{
+	background:rgba(0,255,155,0.2);
+}
+.container img,.courseRow{
+	margin-bottom: 4%;
+}
+.CoursesShare .span {
+	color:#B5090B;
+	font-weight: bolder;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.contLink,.footer{
+	text-align: center;
+	padding:15px 0px 15px 0px;
+}
+ .contLink  {
+    background:rgba(0,0,0,1);
+    height: 130px;
+
+}
+.contLink img{
+ margin-right: 10px;
+} 
+.contLink a:hover img{
+	border:3px solid red;
+}
+.footer{
+    background:rgba(0,0,0,.9);
+    color: rgba(255,255,255,1);
+}
+
+.top{
+	position: fixed;
+	bottom: 14px;
+	right: 3%;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/to-top1.png") no-repeat 0px 0px;
+	animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+            transform: translate(0, 0); }
+
+  50% {
+            transform: translate(0, 10px); }
+
+  100% {
+            transform: translate(0, 0); } }
